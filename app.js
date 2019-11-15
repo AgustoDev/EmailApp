@@ -5,7 +5,7 @@ const helper = require("./helper");
 var btoa = require("btoa");
 var atob = require("atob");
 
-const endPoint = "http://10.0.0.223:8080";
+const endPoint = "https://agustoevents.herokuapp.com/";
 const fullMail = require("./views/design");
 
 var conn = mysql.createPool({
@@ -38,6 +38,8 @@ const sendTheMail = () => {
 		result.forEach(el => {
 			let link = `${endPoint}/event/${btoa(el.email)}`;
 			let msg = fullMail(link);
+
+			console.log(msg);
 			helper.sendEmail(el.email, "Invited We Are !", msg);
 		});
 	});
