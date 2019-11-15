@@ -33,9 +33,9 @@ const sendTheMail = () => {
 	conn.query("select * from user WHERE status = 0", [], (err, result) => {
 		if (err) return;
 
-		console.log(result);
-
 		result.forEach(el => {
+			console.log(el);
+			console.log(endPoint);
 			let link = `${endPoint}/event/${btoa(el.email)}`;
 			let msg = fullMail(link);
 			helper.sendEmail(el.email, "Invited We Are !", msg);
