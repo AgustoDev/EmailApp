@@ -33,7 +33,7 @@ const sendTheMail = () => {
 	conn.query("select * from user WHERE status = 0", [], (err, result) => {
 		if (err) return;
 
-		console.log(result.length);
+		console.log(result);
 
 		result.forEach(el => {
 			let link = `${endPoint}/event/${btoa(el.email)}`;
