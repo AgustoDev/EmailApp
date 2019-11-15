@@ -59,7 +59,3 @@ app.get("/event/:email/:action", function(req, res) {
 
 const port = process.env.PORT || 11000;
 const server = app.listen(port, () => console.log(`Agusto Email Notification Service on: ${port}`));
-
-process.on("exit", () => server.close());
-process.on("SIGTERM", () => server.close());
-process.on("uncaughtException", () => server.close());
