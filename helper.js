@@ -1,5 +1,6 @@
 const sgMail = require("@sendgrid/mail");
-const config = require("./config/config");
+//const config = require("./config/config");
+const config = require("./config/configheroku"); // For Heroku
 
 async function sendEmail(to, subject, html) {
     sgMail.setApiKey(config.key);
