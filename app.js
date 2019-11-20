@@ -23,8 +23,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", function(req, res) {
-    sendTheMail();
-    res.send("Welcome to Email App");
+    //let msg = fullMail("#");
+    //res.send(msg);
+
+    var result = sendTheMail();
+    res.send(result);
 });
 
 app.use(express.static("public"));
@@ -43,7 +46,14 @@ const sendTheMail = () => {
             let msg = fullMail(link);
             helper.sendEmail(el.email, "Agusto & Co Farewell Dinner", msg);
         });
+
+        var response = "";
+
+        result.length > 0 ? (response = `${result.length} Email(s) Successfully Sent. `) : (response = `${result.length} Email Available for sending`);
+
+        return response;
     }
+    return "0 Email Sent";
 };
 
 app.get("/event/:email/:action", function(req, res) {

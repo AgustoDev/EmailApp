@@ -104,18 +104,19 @@ const fullHtml = link => {
                                   <td height="8" colspan="2" style="background-color:#d1d2d4;" ></td>
                                 </tr>
                                 <tr>
-                                    <td width="29%" style="background-color:#d1d2d4; font-size:14px; color:#000; ">Will you be attending?</td>
+                                    <td width="25%" style="background-color:#d1d2d4; font-size:14px; color:#000; "><strong>Will you be attending?</strong></td>
                                    <td width="5%" align="center" valign="middle" style=" background-color:#0c2044; color:#fff;"><a href="${link}/2" name="RSVP_1" target="_blank" id="RSVP_2"  style="color:#fff; font-weight:normal; " ><img   src="https://docs.agusto.com/2019/newsletters/rsvp-arrow.png" alt="Yes" title="Yes" border="0" /></a></td>
                                    <td width="6%" valign="middle" style=" background-color:#0c2044; color:#fff; "><a href="${link}/2" name="RSVP_1" target="_blank" id="RSVP_3"  style="color:#fff; font-weight:normal;" >Yes</a></td>
                                    <td width="4%" valign="middle" style="background-color:#d1d2d4; ">&nbsp;</td>
                                    <td width="5%" align="center" valign="middle" style="background-color:#d1d2d4;  background-color:#909ba1; color:#fff;"><a href="${link}/0" name="RSVP_1_1" target="_blank" class="rsvp" id="RSVP_2"  style="color:#fff; font-weight:normal;" ><img   src="https://docs.agusto.com/2019/newsletters/rsvp-arrow.png" alt="No" title="No" border="0" /></a></td>
                                    <td width="6%" valign="middle" style="background-color:#d1d2d4;  background-color:#909ba1; color:#fff;"><a href="${link}/0" name="RSVP_1_2" target="_blank" class="rsvp" id="RSVP_4"  style="color:#fff; font-weight:normal;" >No</a></td>
     
-                                   
-    <td width="4%" valign="middle" style="background-color:#d1d2d4; " ></td>
-    <td width="4%" valign="middle" style="background-color:#d1d2d4; " ></td>
+                                   <td width="1%" valign="middle" style="background-color:#d1d2d4; " colspan="1" ></td>
+    <td width="15%" valign="middle" style="background-color:#d1d2d4; " colspan="1" >Kindly RSVP by December 2nd, 2019</td>
+    
     
                                 </tr>
+                               
                                 <tr>
                                   <td height="8" style="background-color:#d1d2d4; "></td>
                                   <td height="8" colspan="2" style="background-color:#d1d2d4; "></td>
