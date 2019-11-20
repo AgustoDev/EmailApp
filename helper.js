@@ -1,9 +1,10 @@
 const sgMail = require("@sendgrid/mail");
+const config = require("./config/config");
 
 async function sendEmail(to, subject, html) {
-    sgMail.setApiKey("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");
+    sgMail.setApiKey(config.key);
     const mail = {
-        from: "chijiokeudokporo@agusto.com",
+        from: "invitation@agusto.com",
         to,
         subject,
         text: html.replace(/<[^>]*>?/gm, ""),

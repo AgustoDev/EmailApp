@@ -12,12 +12,12 @@ const fullHtml = link => {
              padding:0;
     }
     
-    a.disclaimer:link {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
-    a.disclaimer:visited {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
-    a.disclaimer:hover {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
-    a.disclaimer:active {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
+    a.disclaimer:link {font-family:Arial, Verdana,Geneva,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
+    a.disclaimer:visited {font-family:Arial, Verdana,Geneva,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
+    a.disclaimer:hover {font-family:Arial, Verdana,Geneva,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
+    a.disclaimer:active {font-family:Arial, Verdana,Geneva,sans-serif; font-size:10px; color:#646465; text-decoration:none; }
     
-    .emailDisclaimer { font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:10px; color:#000; }
+    .emailDisclaimer { font-family:Arial, Verdana,Geneva,sans-serif; font-size:10px; color:#000; }
     
     p, td, div { 
              font-family:Arial, Verdana, Geneva, sans-serif; font-size:12px;color:#686868; 
@@ -35,10 +35,10 @@ const fullHtml = link => {
              font-family:Arial, Verdana, Geneva, sans-serif; font-size:12px;color:#686868; font-weight:normal;
     }
     
-    a:link {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold;  }
-    a:visited {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold;  }
-    a:hover {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold; }
-    a:active {font-family:Arial, Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold;  }
+    a:link {font-family:Arial, Verdana,Geneva,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold;  }
+    a:visited {font-family:Arial, Verdana,Geneva,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold;  }
+    a:hover {font-family:Arial, Verdana,Geneva,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold; }
+    a:active {font-family:Arial, Verdana,Geneva,sans-serif; font-size:14px; color:#000; text-decoration:none; font-weight:bold;  }
     
     .hidden{
              display:none;	
@@ -61,7 +61,7 @@ const fullHtml = link => {
        
             <table align="center" cellspacing="0" cellpadding="0" border="0" width="597">
                     <tr>
-                        <td colspan="2" style="border-left:1px solid #0c2044; border-right: 1px solid #0c2044; border-top:1px solid #000;"><img border="0" width="595"   src="https://docs.agusto.com/2019/newsletters/Mrs-SHOBO-PARTY-3.jpg" alt="Invitation" title="Invitation" /></td>
+                        <td colspan="2" style="border-left:1px solid #0c2044; border-right: 1px solid #0c2044; border-top:1px solid #000;"><img border="0" width="595"   src="https://docs.agusto.com/2019/newsletters/Mrs-shobo-party-blur.jpg" alt="Invitation" title="Invitation" /></td>
                     </tr>
                                <tr>
                       <td width="16" style="border-left:1px solid #0c2044;">&nbsp;</td>
@@ -74,7 +74,7 @@ const fullHtml = link => {
                     <tr>
                       <td style="border-left:1px solid #0c2044;">&nbsp;</td>
                       <td align="left" style="border-right: 1px solid #0c2044; padding-right:15px; font-size:25px; color: #000;">
-                        <strong>Agusto & Co Exclusive Dinner</strong>
+                        <strong>Agusto & Co Farewell Dinner</strong>
                     </td>
                     </tr>
                   <tr>
@@ -83,7 +83,7 @@ const fullHtml = link => {
                     </tr>
                     <tr>
                       <td style="border-left:1px solid #0c2044;">&nbsp;</td>
-                      <td align="left"  style="border-right: 1px solid #0c2044; padding-right:15px;">Please join Agusto & Co for cocktails and dinner in honor of our outgoing Managing Director – <b>Mrs Vivien Shobo</b></td>
+                      <td align="left"  style="border-right: 1px solid #0c2044; padding-right:15px;">Please join Agusto & Co for cocktail and dinner in honour of our outgoing Managing Director – <b>Mrs Vivien Shobo</b></td>
                     
                     </tr>
                     <tr>
@@ -138,7 +138,7 @@ const fullHtml = link => {
                       <table cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                                   <td width="16%" valign="top"><strong>Date:</strong></td>
-                                  <td width="84%">Thursday 17 December, 2019</td>
+                                  <td width="84%">Thursday 12 December, 2019</td>
                         </tr>
                                
                         
@@ -167,7 +167,7 @@ const fullHtml = link => {
                         
                          <tr>
                           <td valign="top"><strong>Dress code:</strong></td>
-                          <td>Black Tie
+                          <td>Formal
     </td></tr>
     <tr>
                           <td valign="top">&nbsp;</td>
@@ -184,7 +184,7 @@ const fullHtml = link => {
                     </tr>
                     <tr>
                       <td style="border-left:1px solid #0c2044;">&nbsp;</td>
-                      <td align="left" style="border-right: 1px solid #0c2044; padding-right:15px;">We look forward to networking with you.
+                      <td align="left" style="border-right: 1px solid #0c2044; padding-right:15px;">We look forward to welcoming you.
     </td>
                     </tr>
                    
