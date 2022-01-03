@@ -1,5 +1,5 @@
-const fullHtml = link => {
-    var val = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+const fullHtml = (link) => {
+  var val = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html>
         <head>
             <title>Agusto Dinner</title>
@@ -61,7 +61,7 @@ const fullHtml = link => {
        
             <table align="center" cellspacing="0" cellpadding="0" border="0" width="597">
                     <tr>
-                        <td colspan="2" style="border-left:1px solid #0c2044; border-right: 1px solid #0c2044; border-top:1px solid #000;"><img border="0" width="595"   src="https://docs.agusto.com/2019/newsletters/Mrs-shobo-party-blur.jpg" alt="Invitation" title="Invitation" /></td>
+                        <td colspan="2" style="border-left:1px solid #0c2044; border-right: 1px solid #0c2044; border-top:1px solid #000;"><img border="0" width="595" src="../public/breakfast.jpeg" alt="Invitation" title="Invitation" /></td>
                     </tr>
                                <tr>
                       <td width="16" style="border-left:1px solid #0c2044;">&nbsp;</td>
@@ -108,7 +108,7 @@ const fullHtml = link => {
                                    <td width="5%" align="center" valign="middle" style=" background-color:#0c2044; color:#fff;"><a href="${link}/2" name="RSVP_1" target="_blank" id="RSVP_2"  style="color:#fff; font-weight:normal; " ><img   src="https://docs.agusto.com/2019/newsletters/rsvp-arrow.png" alt="Yes" title="Yes" border="0" /></a></td>
                                    <td width="6%" valign="middle" style=" background-color:#0c2044; color:#fff; "><a href="${link}/2" name="RSVP_1" target="_blank" id="RSVP_3"  style="color:#fff; font-weight:normal;" >Yes</a></td>
                                    <td width="4%" valign="middle" style="background-color:#d1d2d4; ">&nbsp;</td>
-                                   <td width="5%" align="center" valign="middle" style="background-color:#d1d2d4;  background-color:#909ba1; color:#fff;"><a href="${link}/0" name="RSVP_1_1" target="_blank" class="rsvp" id="RSVP_2"  style="color:#fff; font-weight:normal;" ><img   src="https://docs.agusto.com/2019/newsletters/rsvp-arrow.png" alt="No" title="No" border="0" /></a></td>
+                                   <td width="5%" align="center" valign="middle" style="background-color:#d1d2d4;  background-color:#909ba1; color:#fff;"><a href="${link}/0" name="RSVP_1_1" target="_blank" class="rsvp" id="RSVP_2"  style="color:#fff; font-weight:normal;" ><img src="https://docs.agusto.com/2019/newsletters/rsvp-arrow.png" alt="No" title="No" border="0" /></a></td>
                                    <td width="6%" valign="middle" style="background-color:#d1d2d4;  background-color:#909ba1; color:#fff;"><a href="${link}/0" name="RSVP_1_2" target="_blank" class="rsvp" id="RSVP_4"  style="color:#fff; font-weight:normal;" >No</a></td>
     
                                    <td width="1%" valign="middle" style="background-color:#d1d2d4; " colspan="1" ></td>
@@ -209,7 +209,7 @@ const fullHtml = link => {
     </body>
     </html>`;
 
-    return val;
+  return val;
 };
 
 module.exports = fullHtml;
