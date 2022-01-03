@@ -74,7 +74,7 @@ const fullHtml = (link) => {
                     <tr>
                       <td style="border-left:1px solid #0c2044;">&nbsp;</td>
                       <td align="left" style="border-right: 1px solid #0c2044; padding-right:15px; font-size:25px; color: #000;">
-                        <strong>Agusto & Co Farewell Dinner</strong>
+                        <strong>Agusto & Co 30 Years of Excellence Breakfast Meeting</strong>
                     </td>
                     </tr>
                   <tr>
@@ -83,7 +83,7 @@ const fullHtml = (link) => {
                     </tr>
                     <tr>
                       <td style="border-left:1px solid #0c2044;">&nbsp;</td>
-                      <td align="left"  style="border-right: 1px solid #0c2044; padding-right:15px;">Please join Agusto & Co for cocktail and dinner in honour of our outgoing Managing Director – <b>Mrs Vivien Shobo</b></td>
+                      <td align="left"  style="border-right: 1px solid #0c2044; padding-right:15px;">Please join Agusto & Co for cocktail and dinner </td>
                     
                     </tr>
                     <tr>
@@ -112,7 +112,7 @@ const fullHtml = (link) => {
                                    <td width="6%" valign="middle" style="background-color:#d1d2d4;  background-color:#909ba1; color:#fff;"><a href="${link}/0" name="RSVP_1_2" target="_blank" class="rsvp" id="RSVP_4"  style="color:#fff; font-weight:normal;" >No</a></td>
     
                                    <td width="1%" valign="middle" style="background-color:#d1d2d4; " colspan="1" ></td>
-    <td width="15%" valign="middle" style="background-color:#d1d2d4; " colspan="1" >Kindly RSVP by December 2nd, 2019</td>
+    <td width="15%" valign="middle" style="background-color:#d1d2d4; " colspan="1" >Kindly RSVP by January 20th, 2022</td>
     
     
                                 </tr>
@@ -139,7 +139,7 @@ const fullHtml = (link) => {
                       <table cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                                   <td width="16%" valign="top"><strong>Date:</strong></td>
-                                  <td width="84%">Thursday 12 December, 2019</td>
+                                  <td width="84%">Thursday 20th January, 2022</td>
                         </tr>
                                
                         
@@ -149,7 +149,7 @@ const fullHtml = (link) => {
                         </tr>
                         <tr>
                           <td valign="top"><strong>Time:</strong></td>
-                          <td>5:00pm – 9:30pm 
+                          <td>5:00pm – 9:00am 
                            </td>
                         </tr>
                         <tr>
@@ -159,7 +159,7 @@ const fullHtml = (link) => {
                         
                          <tr>
                           <td valign="top"><strong>Venue:</strong></td>
-                          <td><strong>Wheatbaker Hotel, 4 Onitolo Street, Ikoyi, Lagos</strong>
+                          <td><strong>Ballroom Hall, Lagos Oriental Hotel</strong>
     </td></tr>
     <tr>
                           <td valign="top">&nbsp;</td>

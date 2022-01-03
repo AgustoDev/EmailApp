@@ -72,7 +72,7 @@ app.get("/event/:email/:action", function (req, res) {
         email: btoa(email),
         action: req.params.action,
         firstname: userDetails.firstname,
-        lastname: userDetails.surname,
+        lastname: userDetails.lastname,
         company: userDetails.company,
         position: userDetails.position,
       });
